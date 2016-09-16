@@ -1,0 +1,277 @@
+/*
+  							
+  Orca style sheet		
+  							
+*/
+
+
+/* General presentation stuff */
+
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	background: #ffffff;
+	color: #000000;
+}
+
+p	{ 
+	margin: 0px 0px 5px 0px; 
+	padding: 0px
+}
+
+a img { 
+	border: none 
+}
+
+a { 
+	background: transparent 
+}
+
+a:link { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #324F8C 
+}
+
+a:active { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;	
+	color: #324F8C 
+}
+
+a:visited { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #324F8C
+}
+
+a:hover { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;	
+	color: #1d93b6 
+}
+
+table { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+}
+
+tr { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+}
+
+td { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+}
+
+input {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt; 
+	color: #695d54;
+	border: 1px solid black
+}
+
+input.text {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt; 
+	color: #695d54;
+	border: 1px solid black
+}
+
+textarea {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt; 
+	color: #695d54;
+	border: 1px solid black
+}
+
+select {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt; 
+	color: #695d54;
+	border: 1px solid #7F9DB9
+}
+
+.textbutton {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	border: 1px solid #c0bab6;
+  text-decoration: none;	
+  background-color: #fbfaf9;
+	color: #887d75;
+	padding: 1px, 1px, 1px, 1px;
+}
+
+.textbutton:hover {
+	text-decoration: none;
+	color: #3e3a36;
+	background-color: #f2f1f0;
+}
+
+.functionhead {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt; 
+	font-weight: bold;
+	background-color: #B6B3B3;
+	color: #FFFFFF;
+	margin: 0px, 0px, 0px, 0px;
+	padding: 3px, 3px, 3px, 3px
+} 
+
+.sectionhead {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #E7E7E7;
+	color: #5d704c
+}
+
+.boxhead {
+	font-size: 8pt; 
+	font-weight: bold;
+	text-align: center;
+	background-color: #E7E7E7;
+  color: black;
+}
+
+.totalhead {
+	font-size: 8pt; 
+	font-weight: bold;
+	text-align: right;
+	background-color: #E7E7E7;
+  color: black;
+}
+
+.td1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	text-align: right;
+}
+
+.td1Focus {
+	font-family: verdana, arial, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+.td2Focus {
+	font-family: verdana, arial, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.tbldata { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+}
+
+.tbldata td {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	padding: 3px 3px 3px 3px
+}
+
+.listbox { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #c0bab6;
+	border-collapse: collapse;
+}
+
+.listbox td {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #c0bab6;
+	padding: 3px 3px 3px 3px
+}
+
+.outerbox { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #c0bab6;
+}
+
+.outerbox td {
+	font-family: verdana, arial, sans-serif;
+	font-size: 8pt;
+	padding: 3px 3px 3px 3px
+}
+
+.even {
+	background-color: #fcfcfc;
+}
+
+.odd {
+	background-color: #f5f5f5;;
+}
+
+.note {
+	font-family: verdana, arial, sans-serif;
+	font-size: 7.5pt;
+}
+
+.required {
+	font-weight: bold;
+	color: #b92700
+}
+
+.error {
+	font-weight: bold;
+	color: #b92700
+}
+
+.alert {
+	background-color: #FFB3B3
+}
+
+.wordAlert {
+	color: #b92700
+}
+
+.docNameBig {
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+.docNameSmall {
+	font-family: verdana, arial, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.bggreydark {
+	background-color: #E7E7E7;
+}
+
+.bggreylight {
+	background-color: #f5f5f5;
+}
+
+div.center {
+  height: 20px;
+  text-align: center
+}
+
+div.left {
+  padding-left: 0px;
+  float: left;
+  padding-bottom: 1px;
+  width: 35%;
+  text-align: left
+}
+
+div.right {
+  float: right;
+  padding-bottom: 1px;
+  width: 35%;
+  text-align: right
+}

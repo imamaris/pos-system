@@ -1,0 +1,129 @@
+/*
+  							
+  Orca style sheet		
+  							
+*/
+
+
+/* Index Page styles */
+
+.headerhome{
+	width:1280px;
+	text-align:center;
+	height:85px;
+	border-bottom: solid 1px #bfbfbf;
+}
+
+.headermenu{
+	width:1280px;
+	text-align:center;
+	height:52px;
+	border-bottom: solid 1px #bfbfbf;
+}
+
+.loginhead {
+	font-size: 12pt; 
+	font-weight: bold;
+	text-align:center;
+	background-color: #000;
+	color: #ffffff
+}
+
+
+/* Menu styles */
+
+.menuon {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+.menuoff {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#nav {
+	background-color: #342d34;
+	margin: 5px 0px 0px 10px;
+}
+
+#category {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#functiongrp {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: underline;	
+	color: #ffffff
+	height: 15px;
+}
+
+#functionlinks {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#functionlinks a:link {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#functionlinks a:visited {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#functionlinks a:hover {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-decoration: none;	
+	color: #FD5200;
+}
+
+#sectionlinks a:link { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+	color: #ffffff; 
+}
+
+#sectionlinks a:active { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;	
+	color: #FD5200; 
+}
+
+#sectionlinks a:visited { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+	color: #FD5200;
+}
+
+#sectionlinks a:hover { 
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;	
+	color: #FD5200; 
+}

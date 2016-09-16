@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XmlConfig>
+    <DBConfig package="com.ecosmosis.util.db">
+        <DBName></DBName>
+        <DBUser>root</DBUser>
+        <DBPasswd>yody</DBPasswd>
+        <DBDriver>com.mysql.jdbc.Driver</DBDriver>
+        <DBURL>jdbc:mysql://localhost/pos_time?useUnicode=true&amp;characterEncoding=UTF-8</DBURL>
+        <DBVerifyInterval>15000</DBVerifyInterval>
+        <DBTimeOut>1000000</DBTimeOut>
+    </DBConfig>
+    
+    <Sys package="com.ecosmosis.mvc.sys">
+    	<APP_NAME>PT Time International</APP_NAME>
+        <ControllerServlet>ControllerServlet</ControllerServlet>
+        <AuthenticationManager></AuthenticationManager> <!-- using default Authentication manager -->
+    </Sys>
+
+    
+    <Log package="com.ecosmosis.util.log">
+     	<Info>false</Info>
+        <InfoLogger>Info</InfoLogger>
+
+        <Debug>false</Debug>
+        <DebugLogger>debug</DebugLogger>
+        
+        <Warning>false</Warning>
+        <WarningLogger>warning</WarningLogger>
+        
+        <Error>true</Error>
+        <ErrorLogger>error</ErrorLogger>
+        
+        <AccessLog>false</AccessLog>
+        <AccessLogger>access</AccessLogger>
+    </Log>
+</XmlConfig>
+

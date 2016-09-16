@@ -1,0 +1,11 @@
+@page printed 	{ margin:1cm; }
+
+@media print {
+   body, p, td, th, ul, a, table, input, select, checkbox {
+     font-size: 8pt; font-family: verdana, arial, sans-serif;}
+}
+
+
+.noprint {
+	display: none;
+}

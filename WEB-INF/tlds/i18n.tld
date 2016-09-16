@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+    <taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+      version="2.0">
+
+      <description>
+        ECS i18n library
+      </description>
+      <jsp-version>2.0</jsp-version>
+      <tlib-version>1.1</tlib-version>
+      <short-name>std</short-name>
+      <uri></uri>
+
+      <tag>
+        <name>locale</name>
+        <tag-class>com.ecosmosis.common.customlibs.I18nLocale</tag-class>
+        <body-content>JSP</body-content>
+        <description>
+        </description>
+        <attribute>
+          <name>id</name>
+          <required>false</required>
+          <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+          <name>translator</name>
+          <rtexprvalue>true</rtexprvalue>
+          <required>true</required>
+        </attribute>
+      </tag>
+
+      <tag>
+        <name>label</name>
+        <tag-class>com.ecosmosis.common.customlibs.I18nTag</tag-class>
+        <body-content>JSP</body-content>
+        <description>
+          Outputs localised message
+        </description>
+        <attribute>
+          <name>localeRef</name>
+          <rtexprvalue>true</rtexprvalue>
+          <required>false</required>
+        </attribute>
+        <attribute>
+          <name>code</name>
+          <rtexprvalue>true</rtexprvalue>
+          <required>true</required>
+        </attribute>
+      </tag>
+
+
+    </taglib>
